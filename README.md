@@ -12,3 +12,5 @@
  - S3
    - ST1: Functions & exceptions
    - ST2: OOP - intro
+ - S4
+   - ST1: Inheritance, abstraction, polymorphism
