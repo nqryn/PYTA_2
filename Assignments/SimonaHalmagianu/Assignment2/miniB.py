@@ -40,7 +40,7 @@ class TodoList:
             if answer.lower() == 'yes':
                 description = input("Insert a description for the current task: ")
                 self.adauga_task(task_name, description)
-                print(f'The task {task_name} has been sucesfully added.')
+                print(f'The task {task_name} has been successfully added.')
             else:
                 print('Ok, good bye!')
 
