@@ -13,4 +13,5 @@
    - ST1: Functions & exceptions
    - ST2: OOP - intro
  - S4
-   - ST1: Inheritance, abstraction, polymorphism
+   - ST1: Inheritance, abstraction, polymorphism, encapsulation
+   - ST2: mini projects OOP (Masina, TodoList)
