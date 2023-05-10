@@ -17,3 +17,4 @@
    - ST2: mini projects OOP (Masina, TodoList)
  - S5
    - ST1: Design Patterns
+   - ST2: Decorators, Iterators, Generators, Context Managers
