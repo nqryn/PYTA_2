@@ -1,0 +1,4 @@
+ITFactory
+Python
+15. mai. 2023
+Astfel adaugam mai mult text la finalul fisierului nostru...
