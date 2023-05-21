@@ -18,3 +18,6 @@
  - S5
    - ST1: Design Patterns
    - ST2: Decorators, Iterators, Generators, Context Managers
+ - S6:
+   - ST1: Files and imports
+   - ST2: SQL & NoSQL
