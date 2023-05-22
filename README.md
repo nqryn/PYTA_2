@@ -21,3 +21,6 @@
  - S6:
    - ST1: Files and imports
    - ST2: SQL & NoSQL
+ - S7:
+   - ST1: REST APIs
+     - Factory Design Pattern exercise
