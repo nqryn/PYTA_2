@@ -24,3 +24,4 @@
  - S7:
    - ST1: REST APIs
      - Factory Design Pattern exercise
+   - ST2: REST APIs : HTTP methods, status codes, requests
