@@ -27,3 +27,4 @@
    - ST2: REST APIs : HTTP methods, status codes, requests
  - S8:
    - ST1: Flask - intro
+   - ST2: Flask - tutorial
