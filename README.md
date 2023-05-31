@@ -25,3 +25,5 @@
    - ST1: REST APIs
      - Factory Design Pattern exercise
    - ST2: REST APIs : HTTP methods, status codes, requests
+ - S8:
+   - ST1: Flask - intro
