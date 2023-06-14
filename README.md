@@ -28,3 +28,4 @@
  - S8:
    - ST1: Flask - intro
    - ST2: Flask - tutorial
+ - S9: Django tutorial
