@@ -72,3 +72,44 @@ Pentru a ne conecta la shell (consola interactiva), folosim comanda:
 `python manage.py shell`
 
 Apoi putem sa folosim modelele, si sa executam diferite instructiuni (atentie, trebuie sa le importam).
+
+
+### Interfata admin
+
+Pentru a putea gestiona modelele create, Django are deja o interfata de administrare, unde putem adauga/edita/sterge date.
+Pentru a folosi aceasta interfata, in primul rand avem nevoie de un cont (un user care are rol de admin):
+`python manage.py createsuperuser`
+Pentru a crea un superuser, rulam comanda de mai sus, si urmam instructiunile de adaugare username si parola.
+Apoi putem accesa interfata de admin la `http://127.0.0.1:8000/admin`. Daca nu suntem inca logati, vom fi redirectionati automat catre login.
+
+Pentru a putea vedea modelele create de noi in interfata de admin, trebuie sa le inregistram (adica in folderul app noastre,
+in fisierul admin.py, trebuie sa apelam functia register cu numele modelului).
+
+
+### Templates HTML
+
+Pentru a putea avea niste raspunsuri HTML din views, folosim engine-ul de templates integrat in Django.
+Acesta ne permite sa facem fisiere HTML dinamice (adica care sunt generate la runtime) prin prezenta unor
+structuri speciale numite template tags.
+
+Template-urile pentru o aplicatie se vor pune in folderul `<nume app>/templates/<nume app>`.
+Exemple de template tags:
+```
+    {% if conditie %}
+        <cod HTML>
+    {% else %}
+        <alt cod HTML>
+    {% endif %}
+```
+```ignorelang
+    {% for item in collection %}
+        <cod HTML in care putem folosi item>
+    {% endfor %}
+```
+
+Pentru a afisa date, folosim duble acolade.
+```ignorelang
+{{ question.question_text }}
+```
+
+Toate aceste template tags sunt evaluate la rulare, si fisierul generat va fi pur HTML.
